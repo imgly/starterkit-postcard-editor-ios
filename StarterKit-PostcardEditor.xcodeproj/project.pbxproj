@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B4B37E51FC8CE4C04814AE /* CanvasMenu+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD627E318E0C2746CF3E09 /* CanvasMenu+Postcard.swift */; };
+		1A905B002A3440872178517D /* StarterKit_PostcardEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC6FD8A3B0E024D904E2014 /* StarterKit_PostcardEditorApp.swift */; };
+		4D0B7FECEC3C626EE859902E /* OnCreate+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274907DD44A3195B0623EA9 /* OnCreate+Postcard.swift */; };
+		52A6F5E395C3660AA2BE6DB7 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555270072043E28204E33D8C /* Secrets.swift */; };
+		53417F0D95B563754B31AFAD /* InspectorBar+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151E710F230CDC612DD91BD /* InspectorBar+Postcard.swift */; };
+		5926AEE97BD69B712D464333 /* IMGLYUI in Frameworks */ = {isa = PBXBuildFile; productRef = B173C41EC8DAF1691B37B6BF /* IMGLYUI */; };
+		6E493663FBF2C8C1DE3838CA /* OnChanged+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3366A1BE59C49F06C33E71 /* OnChanged+Postcard.swift */; };
+		7CD370CD1A42537700021275 /* Dock+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74215B485875004550D05827 /* Dock+Postcard.swift */; };
+		7CD712D1DA1BE2D12266F67A /* PostcardEditorStarterKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890AF18ABB2E6B5F1B1A63C /* PostcardEditorStarterKit.swift */; };
+		7D3BB52AC0EBCE009AAAD9CD /* postcard-empty.scene in Resources */ = {isa = PBXBuildFile; fileRef = 18F7C7F5DF475CD362ABCC82 /* postcard-empty.scene */; };
+		8D377B539B325059C66069A3 /* PostcardEditorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE092F5B95FD549A2DCD4C92 /* PostcardEditorConfiguration.swift */; };
+		B708BDF7CBBE5FE5C170B0EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC95A300A99E0E44EB8D6B8 /* ContentView.swift */; };
+		CC685145EDA9BC2EDA5B20B1 /* NavigationBar+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC816E2FE14A3EE091852A /* NavigationBar+Postcard.swift */; };
+		F69FFF515DE526E5FBB617A6 /* DockButtons+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD9C6BC00960B7CAB66003 /* DockButtons+Postcard.swift */; };
+		FD38CB30B2007EF7EA7F01B6 /* OnExport+Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46ADC5A8830D16C5F2600E /* OnExport+Postcard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FD627E318E0C2746CF3E09 /* CanvasMenu+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanvasMenu+Postcard.swift"; sourceTree = "<group>"; };
+		1151E710F230CDC612DD91BD /* InspectorBar+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InspectorBar+Postcard.swift"; sourceTree = "<group>"; };
+		18F7C7F5DF475CD362ABCC82 /* postcard-empty.scene */ = {isa = PBXFileReference; path = "postcard-empty.scene"; sourceTree = "<group>"; };
+		1EC95A300A99E0E44EB8D6B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DC6FD8A3B0E024D904E2014 /* StarterKit_PostcardEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterKit_PostcardEditorApp.swift; sourceTree = "<group>"; };
+		4274907DD44A3195B0623EA9 /* OnCreate+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnCreate+Postcard.swift"; sourceTree = "<group>"; };
+		500B89E0179E5A93FE0B1EE9 /* StarterKit-PostcardEditor.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "StarterKit-PostcardEditor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555270072043E28204E33D8C /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		6A46ADC5A8830D16C5F2600E /* OnExport+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnExport+Postcard.swift"; sourceTree = "<group>"; };
+		74215B485875004550D05827 /* Dock+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dock+Postcard.swift"; sourceTree = "<group>"; };
+		AC3366A1BE59C49F06C33E71 /* OnChanged+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnChanged+Postcard.swift"; sourceTree = "<group>"; };
+		BAAD9C6BC00960B7CAB66003 /* DockButtons+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockButtons+Postcard.swift"; sourceTree = "<group>"; };
+		BCDC816E2FE14A3EE091852A /* NavigationBar+Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar+Postcard.swift"; sourceTree = "<group>"; };
+		CE092F5B95FD549A2DCD4C92 /* PostcardEditorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardEditorConfiguration.swift; sourceTree = "<group>"; };
+		F890AF18ABB2E6B5F1B1A63C /* PostcardEditorStarterKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardEditorStarterKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5FF2F593890BCB3BBA282FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5926AEE97BD69B712D464333 /* IMGLYUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B92F71D0D0001FFEBF6E80C = {
+			isa = PBXGroup;
+			children = (
+				5BA08E6098742B4E6A5C6D9F /* StarterKit */,
+				D42964CCB8419CB39531EEF4 /* StarterKit-PostcardEditor */,
+				4E769298181EA65698D8008D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BEAD0DC22E5822E5879464 /* callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3366A1BE59C49F06C33E71 /* OnChanged+Postcard.swift */,
+				4274907DD44A3195B0623EA9 /* OnCreate+Postcard.swift */,
+				6A46ADC5A8830D16C5F2600E /* OnExport+Postcard.swift */,
+			);
+			path = callbacks;
+			sourceTree = "<group>";
+		};
+		4E769298181EA65698D8008D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				500B89E0179E5A93FE0B1EE9 /* StarterKit-PostcardEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA08E6098742B4E6A5C6D9F /* StarterKit */ = {
+			isa = PBXGroup;
+			children = (
+				18F7C7F5DF475CD362ABCC82 /* postcard-empty.scene */,
+				CE092F5B95FD549A2DCD4C92 /* PostcardEditorConfiguration.swift */,
+				F890AF18ABB2E6B5F1B1A63C /* PostcardEditorStarterKit.swift */,
+				49BEAD0DC22E5822E5879464 /* callbacks */,
+				D1ADDB742A8DC6FC3BFA2FAF /* components */,
+			);
+			path = StarterKit;
+			sourceTree = "<group>";
+		};
+		D1ADDB742A8DC6FC3BFA2FAF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				10FD627E318E0C2746CF3E09 /* CanvasMenu+Postcard.swift */,
+				74215B485875004550D05827 /* Dock+Postcard.swift */,
+				BAAD9C6BC00960B7CAB66003 /* DockButtons+Postcard.swift */,
+				1151E710F230CDC612DD91BD /* InspectorBar+Postcard.swift */,
+				BCDC816E2FE14A3EE091852A /* NavigationBar+Postcard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		D42964CCB8419CB39531EEF4 /* StarterKit-PostcardEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1EC95A300A99E0E44EB8D6B8 /* ContentView.swift */,
+				555270072043E28204E33D8C /* Secrets.swift */,
+				2DC6FD8A3B0E024D904E2014 /* StarterKit_PostcardEditorApp.swift */,
+			);
+			path = "StarterKit-PostcardEditor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F112746A718A758CBC9669FF /* StarterKit-PostcardEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82F3C9C37505C9972DD376F /* Build configuration list for PBXNativeTarget "StarterKit-PostcardEditor" */;
+			buildPhases = (
+				5868362660F970FB6BD49D7C /* Sources */,
+				CE90609EC7C2B22429F96317 /* Resources */,
+				E5FF2F593890BCB3BBA282FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarterKit-PostcardEditor";
+			packageProductDependencies = (
+				B173C41EC8DAF1691B37B6BF /* IMGLYUI */,
+			);
+			productName = "StarterKit-PostcardEditor";
+			productReference = 500B89E0179E5A93FE0B1EE9 /* StarterKit-PostcardEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3692BB1E133EDD2142F70DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A234CC036864E56DB9DF4A91 /* Build configuration list for PBXProject "StarterKit-PostcardEditor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1B92F71D0D0001FFEBF6E80C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0E976F5219A1DDD1D2972694 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */,
+			);
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F112746A718A758CBC9669FF /* StarterKit-PostcardEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE90609EC7C2B22429F96317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3BB52AC0EBCE009AAAD9CD /* postcard-empty.scene in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5868362660F970FB6BD49D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4B37E51FC8CE4C04814AE /* CanvasMenu+Postcard.swift in Sources */,
+				B708BDF7CBBE5FE5C170B0EC /* ContentView.swift in Sources */,
+				7CD370CD1A42537700021275 /* Dock+Postcard.swift in Sources */,
+				F69FFF515DE526E5FBB617A6 /* DockButtons+Postcard.swift in Sources */,
+				53417F0D95B563754B31AFAD /* InspectorBar+Postcard.swift in Sources */,
+				CC685145EDA9BC2EDA5B20B1 /* NavigationBar+Postcard.swift in Sources */,
+				6E493663FBF2C8C1DE3838CA /* OnChanged+Postcard.swift in Sources */,
+				4D0B7FECEC3C626EE859902E /* OnCreate+Postcard.swift in Sources */,
+				FD38CB30B2007EF7EA7F01B6 /* OnExport+Postcard.swift in Sources */,
+				8D377B539B325059C66069A3 /* PostcardEditorConfiguration.swift in Sources */,
+				7CD712D1DA1BE2D12266F67A /* PostcardEditorStarterKit.swift in Sources */,
+				52A6F5E395C3660AA2BE6DB7 /* Secrets.swift in Sources */,
+				1A905B002A3440872178517D /* StarterKit_PostcardEditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E3D67771082E6B6E4EFFE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B6187AC51FAD896BBB2BFCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ly.img.starterkit.postcard-editor";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC706394FC033F39C91CA1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		ECAE6CA579F75361B7BD57AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ly.img.starterkit.postcard-editor";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A234CC036864E56DB9DF4A91 /* Build configuration list for PBXProject "StarterKit-PostcardEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3D67771082E6B6E4EFFE77 /* Debug */,
+				BC706394FC033F39C91CA1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E82F3C9C37505C9972DD376F /* Build configuration list for PBXNativeTarget "StarterKit-PostcardEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6187AC51FAD896BBB2BFCB6 /* Debug */,
+				ECAE6CA579F75361B7BD57AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E976F5219A1DDD1D2972694 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/imgly/IMGLYUI-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = "1.74.0-rc.1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B173C41EC8DAF1691B37B6BF /* IMGLYUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E976F5219A1DDD1D2972694 /* XCRemoteSwiftPackageReference "IMGLYUI-swift" */;
+			productName = IMGLYUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3692BB1E133EDD2142F70DC5 /* Project object */;
+}
